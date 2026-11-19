@@ -1,0 +1,15 @@
+[package]
+name = "sigmaos-update-manager"
+version = "0.1.0"
+edition = "2021"
+description = "Rolling release update orchestration for SigmaOS"
+license = "MIT"
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-update-manager"
+
+[lib]
+name = "sigmaos_update_manager"
+path = "src/lib.rs"
+
+[[bin]]
+name = "sigmaos-update-manager"
+path = "src/main.rs"

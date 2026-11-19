@@ -1,0 +1,24 @@
+[component]
+name = "sigmaos-update-manager"
+version = "0.1.0"
+description = "Rolling release update orchestration with Observer, State, Strategy patterns"
+inspiration = "SigmaOS"
+
+[contract]
+provides = ["update-orchestration", "pre-update-snapshot", "post-update-verification"]
+depends_on = ["sigmaos-package-manager", "sigmaos-snapshot-manager"]
+
+[maturity]
+level = "planning"
+stability = "experimental"
+testing = "pending"
+
+[license]
+name = "MIT"
+spdx = "MIT"
+
+[authors]
+primary = "SigmaOS Team"
+
+[repository]
+url = "https://github.com/AaryanSinghChauhan09/SigmaOS-update-manager"
