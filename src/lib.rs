@@ -2,6 +2,8 @@
 // OOPS Principles: Observer, State, Strategy patterns
 // Design Patterns: Observer, State, Strategy
 
+pub mod sigmaupdatemanager;
+
 /// Update state - State Pattern
 #[derive(Debug, Clone, PartialEq, Eq)]
 pub enum UpdateState {
