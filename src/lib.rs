@@ -170,3 +170,9 @@ mod tests {
         assert!(result.is_ok());
     }
 }
+
+/// Module extracted from the SigmaOS-system monolith.
+pub mod update_manager;
+
+/// Module extracted from the SigmaOS-system monolith.
+pub mod atomic_upgrade;

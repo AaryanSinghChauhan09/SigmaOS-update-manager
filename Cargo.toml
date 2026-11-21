@@ -13,3 +13,6 @@ path = "src/lib.rs"
 [[bin]]
 name = "sigmaos-update-manager"
 path = "src/main.rs"
+
+[dependencies.sigmaos-runtime-support]
+git = "https://github.com/AaryanSinghChauhan09/SigmaOS-runtime-support"
